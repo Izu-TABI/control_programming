@@ -42,7 +42,6 @@ def RungeKutta(h1, h2, h):
 
   return kh1, kh2
 
-
 # プロット
 def plot(x, y1, y2, x_label, y_label):
   fig = plt.figure()
